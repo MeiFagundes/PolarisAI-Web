@@ -1,6 +1,6 @@
 class Request{
 
-    host = "http://polarisai.azurewebsites.net/";
+    host = "https://polarisai.azurewebsites.net/";
 
     Request(){
 
