@@ -12,7 +12,7 @@ class Request{
         return new Promise((resolve) => {
             
             let xhttp = new XMLHttpRequest();
-            xhttp.open("GET", this.host + "query/" + query, true);
+            xhttp.open("GET", this.host + "debug/" + query, true);
 
             xhttp.send();
 
