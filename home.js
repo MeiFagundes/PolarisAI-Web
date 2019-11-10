@@ -10,7 +10,8 @@ sendBtn.addEventListener("click", async () => {
     loadingMsgEl.style.display = "flex";
     let responseText = await request.sendQuery(queryText.value);
     loadingMsgEl.style.display = "none";
-    responseText = responseText.replace(/\n/g, "<br>");
+    responseText = responseText;
+    responseText = responseText.replace(/    /g, "‎‎‎‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‎");
     setResponseText(responseText);
     
 });
