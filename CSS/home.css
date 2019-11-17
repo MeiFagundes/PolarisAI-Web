@@ -118,6 +118,10 @@ h2{
     filter: brightness(50%);
 }
 
+.container > * > * > img{
+    max-width: 15rem;
+}
+
 @media only screen and (min-width: 1px) and (max-width: 600px) {
 
     nav {
