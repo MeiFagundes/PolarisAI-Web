@@ -71,9 +71,13 @@ h2{
 #query {
     padding: 2rem;
     margin: 0 auto;
+    max-width: 40rem;
 }
 #query > *{
     color: white;
+}
+#query > h2 {
+    text-align: center;
 }
 #query-input{
     display: flex;
@@ -85,6 +89,9 @@ h2{
 }
 #query-input > .input-field{
     width: 30vw;
+}
+#query-input > a{
+    min-width: 7rem;
 }
 
 #loading-message{
@@ -119,7 +126,7 @@ h2{
 }
 
 .container > * > * > img{
-    max-width: 15rem;
+    max-width: 17rem;
 }
 
 @media only screen and (min-width: 1px) and (max-width: 600px) {
@@ -183,6 +190,6 @@ h2{
     }
 
     .container > * > * > img{
-        max-width: 90vw;
+        max-width: 15rem;
     }
 }
